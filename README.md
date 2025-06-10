@@ -50,3 +50,11 @@ systemctl restart sshd
 ```bash
 ssh -V
 ```
+# 重启失败
+```bash
+systemctl restart sshd
+```
+1. 替换opensshserver.config配置
+```bash
+cd /etc/crypto-policies/back-ends
+```
