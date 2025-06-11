@@ -1,9 +1,9 @@
 # update_openssh
 # 手动编译更新openssh-10
-> 银河麒麟V10 x86
+> 银河麒麟V10 x86 aarch64
 1. 更新系统
 ```bash
-yum install gcc make zlib-devel openssl-devel pam-devel
+yum install gcc make zlib-devel openssl-devel pam-devel -y
 ```
 2. 下载源码包
 ```bash
