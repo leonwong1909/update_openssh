@@ -21,8 +21,12 @@ cp /usr/sbin/sshd /data/bak/20250610/sshd.bak
 cp -r /etc/ssh /data/bak/20250610/ssh.bak
 ```
 5. 编译安装
+- 编译
 ```bash
 ./configure --prefix=/usr --sysconfdir=/etc/ssh --with-pam --with-zlib --with-ssl-dir=/usr --with-gssapi
+```
+- 安装
+```bash
 make
 make install
 ```
